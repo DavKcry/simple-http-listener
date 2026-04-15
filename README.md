@@ -4,7 +4,7 @@ A simple Python script designed to receive and visualize exfiltrated data on por
 
 ## Overview
 
-This script acts as a lightweight HTTP server, very similar to Python's standard module (`python3 -m http.server`), but optimized for CTFs and pentesting.
+This script acts as a lightweight HTTP server, very similar to Python's standard module (python3 -m http.server), but optimized for CTFs and pentesting.
 
 Unlike the standard module, this script provides:
 

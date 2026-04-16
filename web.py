@@ -1,3 +1,4 @@
+import sys
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import urllib.parse
 
@@ -21,6 +22,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.end_headers()
 
-httpd = HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
-print("Serving on port 8000...")
+port = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
+httpd = HTTPServer(('0.0.0.0', port), SimpleHTTPRequestHandler)
+print(f"Serving on port {port}...")
 httpd.serve_forever()

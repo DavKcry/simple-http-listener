@@ -10,7 +10,8 @@ Unlike the standard module, this script provides:
 
 * **POST Support:** Accepts and prints data from forms, fetch, or curl requests.
 * **Request Decoding:** Automatically URL-decodes the incoming data.
-* **Custom Port:** Optionally, you can pick the port you want to listen.
+
+Optionally, you can pick the port you want to listen.
 
 ## Usage
 

@@ -1,4 +1,4 @@
-# Simple HTTP Listener for Data Exfiltration
+# Simple HTTP GET/POST Listener for Data Exfiltration
 
 A simple Python script designed to receive and visualize exfiltrated data on port 8000. 
 
